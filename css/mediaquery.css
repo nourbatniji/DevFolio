@@ -1,0 +1,175 @@
+@media (max-width: 400px) {
+    .home-content {
+        .content {
+            width: 95%;
+            margin: auto;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 48px !important;
+        }
+
+
+        .animated-text::after {
+            content: "";
+            animation: word infinite 10s alternate;
+            font-size: 28px !important;
+            font-weight: 500;
+        }
+    }
+
+
+    #about {
+        margin-left: 12px;
+        margin-right: 12px;
+        padding-left: 0;
+
+        .row>* {
+            padding-left: 4px;
+        }
+
+        .skill {
+            padding-left: 0px !important;
+        }
+
+        img {
+            width: auto;
+        }
+
+        #first-sec {
+            padding-left: 5px !important;
+            padding-bottom: 30px;
+        }
+    }
+
+    .statics {
+        height: 835px !important;
+    }
+
+    #contact {
+        .container {
+            padding: 20px !important;
+        }
+    }
+
+    .nav-pills .nav-link.active {
+        background-color: transparent;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 572px) {
+
+    .nav-pills .nav-link.active {
+        background-color: transparent;
+    }
+
+    .home-content {
+        .content {
+            width: 95%;
+            margin: auto;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 48px;
+        }
+
+
+        .animated-text::after {
+            font-size: 28px !important;
+        }
+    }
+}
+
+
+@media (min-width:572px) and (max-width: 768px) {
+    .nav-pills .nav-link.active {
+        background-color: transparent;
+    }
+
+    .statics {
+        height: 150vh !important;
+    }
+
+    .home-content {
+        .content {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 48px !important;
+        }
+
+
+        .animated-text::after {
+            font-size: 28px !important;
+        }
+    }
+
+
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .nav-pills .nav-link.active {
+        background-color: transparent;
+    }
+
+    .home-content {
+        .content {
+            width: 70%;
+            margin: auto;
+            text-align: center;
+        }
+    }
+
+    #about {
+        img {
+            width: 120%;
+        }
+
+        #first-sec {
+            padding-left: 35px !important;
+        }
+
+        .underline1::after {
+            width: 30%;
+        }
+    }
+
+    #work {
+        .content {
+            text-align: left;
+            justify-content: space-between;
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+    #blog {
+        .content {
+            flex-direction: column;
+
+            #clock {
+                align-self: flex-end;
+                justify-content: center;
+                position: relative;
+
+                i {
+                    position: absolute;
+                    top: 5px;
+                    left: -18px;
+                }
+
+                p {
+                    padding: 0;
+                }
+            }
+        }
+    }
+}

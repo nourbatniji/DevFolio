@@ -1,0 +1,186 @@
+.home-image {
+    background-image: linear-gradient(var(--main-color-transparent), var(--main-color-transparent)), url(../../images/overlay-bg.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 48vh;
+
+    h1 {
+        font-size: 56px;
+        font-weight: 600;
+    }
+
+    .breadcrumb-item+.breadcrumb-item::before {
+        color: white !important;
+    }
+
+    .home {
+        font-weight: 500;
+    }
+
+    .breadcrumb {
+        padding-top: 10px;
+    }
+
+    .breadcrumb-item {
+        color: rgba(255, 255, 255, 0.773);
+    }
+
+}
+
+#heading {
+    h1 {
+        font-size: 30px;
+    }
+    .inner2{
+        padding-bottom: 30px !important;
+    }
+    .inner3{
+        padding-bottom: 30px !important;
+    }
+    .inner4{
+        padding-bottom: 31px !important;
+    }
+
+    .list {
+        li {
+            i {
+                font-size: 14px;
+            }
+
+            a {
+                font-weight: 400;
+                font-size: 16px;
+            }
+        }
+    }
+
+    .list::before {
+        content: "";
+        width: 4px;
+        height: 25px;
+        background-color: var(--main-color);
+        margin-right: 10px;
+    }
+
+    .line {
+        font-size: 20px;
+    }
+
+    .line::before {
+        content: "";
+        display: block;
+        width: 4px;
+        height: 66px;
+        background-color: var(--main-color);
+        margin-right: 18px;
+    }
+
+    .input-group {
+        input {
+            border-radius: 0;
+        }
+    }
+
+    .input-group-text {
+        background-color: var(--main-color);
+        border-radius: 0;
+        width: 60px;
+
+
+    }
+
+    h5 {
+        font-size: 26px;
+    }
+
+    .line2::before {
+        content: "";
+        display: block;
+        width: 5px;
+        height: 30px;
+        background-color: var(--main-color);
+        margin-right: 15px;
+    }
+
+    .item {
+        padding: 6px 0;
+        transition: all 1s;
+        cursor: pointer;
+    }
+
+    .item::before {
+        content: "";
+        display: block;
+        width: 10px;
+        height: 1.3px;
+        background-color: var(--main-color);
+        margin-right: 15px;
+    }
+
+    .item:hover {
+        color: var(--main-color) !important;
+    }
+
+    .btn {
+        padding: 3px 8px;
+        margin-right: 5px;
+        margin-bottom: 7px;
+    }
+}
+
+
+#comments {
+    .underline {
+        position: relative;
+    }
+
+    .underline::after {
+        content: "";
+        width: 13%;
+        height: 2px;
+        background-color: var(--main-color);
+        position: absolute;
+        bottom: -11px;
+        left: 0px;
+    }
+
+    .card {
+        border: 0;
+
+        .card-image {
+            width: 24%;
+        }
+
+        img {
+            width: 80px;
+            height: 80px;
+        }
+    }
+}
+
+#form {
+    .underline {
+        position: relative;
+    }
+
+    .underline::after {
+        content: "";
+        width: 13%;
+        height: 2px;
+        background-color: var(--main-color);
+        position: absolute;
+        bottom: -11px;
+        left: 0px;
+    }
+
+    .row {
+        padding-top: 40px;
+    }
+
+    .btn {
+        font-size: 19px;
+        padding: 14px 36px;
+    }
+}

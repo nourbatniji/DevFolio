@@ -1,0 +1,84 @@
+.home-image {
+    background-image: linear-gradient(var(--main-color-transparent), var(--main-color-transparent)), url(../images/overlay-bg.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 48vh;
+
+    h1 {
+        font-size: 70px;
+        font-weight: 600;
+    }
+
+    .breadcrumb-item+.breadcrumb-item::before {
+        color: white !important;
+    }
+
+    .home {
+        font-weight: 500;
+    }
+
+    .breadcrumb-item {
+        color: rgba(255, 255, 255, 0.773);
+    }
+
+}
+#portfolio {
+    .carousel {
+        padding: 40px 0;
+    }
+
+    .carousel-indicators [data-bs-target] {
+        background-color: #fff;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        border: #007aff solid 1px;
+        opacity: 1;
+    }
+
+    .carousel-indicators .active {
+        background-color: #007aff !important;
+    }
+
+    .inner {
+        box-shadow: 0 0 20px 5px rgba(135, 135, 135, 0.1);
+        padding: 30px 0 20px 0;
+        margin-top: 40px;
+
+        .line {
+            width: 97%;
+            height: 0.1px;
+            margin: 20px auto;
+            background-color: #dddcdc57;
+
+        }
+
+        .content {
+            padding-left: 6px;
+        }
+
+        .body {
+            padding-left: 6px;
+
+            h4 {
+                font-size: 22px;
+            }
+        }
+
+        .content ul li {
+            padding: 0 0 10px 0;
+            font-size: 15px;
+        }
+    }
+
+    .content2 {
+
+        h3 {
+            font-size: 26px;
+            padding-top: 28px;
+        }
+    }
+
+}
