@@ -845,7 +845,7 @@ body {
     }
 
     .statics {
-        background-image: linear-gradient(var(--main-color-transparent), var(--main-color-transparent)), url(../../images/counters-bg.jpg);
+        background-image: linear-gradient(var(--main-color-transparent), var(--main-color-transparent)), url(../images/counters-bg.jpg);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1017,7 +1017,7 @@ body {
 }
 
 #slider {
-    background-image: linear-gradient(var(--main-color-transparent), var(--main-color-transparent)), url(../../images/overlay-bg.jpg);
+    background-image: linear-gradient(var(--main-color-transparent), var(--main-color-transparent)), url(../images/overlay-bg.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
